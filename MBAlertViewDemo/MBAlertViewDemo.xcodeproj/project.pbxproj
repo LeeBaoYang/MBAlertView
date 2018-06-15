@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1520C56B20D34D4C00EAB98F /* MBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C56A20D34D4C00EAB98F /* MBAlertView.m */; };
 		1577ACC220D0E50F00006B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577ACC120D0E50F00006B99 /* AppDelegate.m */; };
 		1577ACC520D0E50F00006B99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577ACC420D0E50F00006B99 /* ViewController.m */; };
 		1577ACC820D0E50F00006B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1577ACC620D0E50F00006B99 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1520C56920D34D4C00EAB98F /* MBAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAlertView.h; sourceTree = "<group>"; };
+		1520C56A20D34D4C00EAB98F /* MBAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAlertView.m; sourceTree = "<group>"; };
 		1577ACBD20D0E50F00006B99 /* MBAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1577ACC020D0E50F00006B99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1577ACC120D0E50F00006B99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			children = (
 				1577ACD720D0E60C00006B99 /* MBAlertManager.h */,
 				1577ACD820D0E60C00006B99 /* MBAlertManager.m */,
+				1520C56920D34D4C00EAB98F /* MBAlertView.h */,
+				1520C56A20D34D4C00EAB98F /* MBAlertView.m */,
 			);
 			path = MBAlertView;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1577ACC520D0E50F00006B99 /* ViewController.m in Sources */,
+				1520C56B20D34D4C00EAB98F /* MBAlertView.m in Sources */,
 				1577ACD920D0E60C00006B99 /* MBAlertManager.m in Sources */,
 				1577ACD020D0E50F00006B99 /* main.m in Sources */,
 				1577ACC220D0E50F00006B99 /* AppDelegate.m in Sources */,
